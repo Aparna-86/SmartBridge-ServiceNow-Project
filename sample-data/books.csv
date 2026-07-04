@@ -1,0 +1,16 @@
+title,author,isbn,category,publisher,publication_year,edition,total_copies,available_copies,location,description,cover_image_url,availability_status,active
+"Clean Code: A Handbook of Agile Software Craftsmanship","Robert C. Martin",9780132350884,"Computer Science","Prentice Hall",2008,1st,5,3,"Aisle 3 — Shelf B",A must-read for software developers covering principles of clean code writing.,https://example.com/covers/clean-code.jpg,available,true
+"Introduction to Algorithms","Thomas H. Cormen",9780262033848,"Computer Science","MIT Press",2009,3rd,3,2,"Aisle 3 — Shelf A",Comprehensive textbook on algorithms and data structures.,https://example.com/covers/algorithms.jpg,available,true
+"Design Patterns: Elements of Reusable Object-Oriented Software","Erich Gamma",9780201633610,"Computer Science","Addison-Wesley",1994,1st,2,1,"Aisle 3 — Shelf C",The classic reference on software design patterns.,https://example.com/covers/design-patterns.jpg,available,true
+"To Kill a Mockingbird","Harper Lee",9780061120084,"Literature","HarperCollins",1960,1st,4,4,"Aisle 1 — Shelf A",A novel about racial injustice in the American South.,,available,true
+"1984","George Orwell",9780451524935,"Literature","Signet Classic",1949,1st,6,5,"Aisle 1 — Shelf B",A dystopian novel set in a totalitarian society.,,available,true
+"A Brief History of Time","Stephen Hawking",9780553380163,"Science","Bantam Books",1998,10th,3,1,"Aisle 2 — Shelf A",A landmark volume in science writing exploring cosmology.,,available,true
+"The Selfish Gene","Richard Dawkins",9780198788607,"Science","Oxford University Press",2016,4th,2,2,"Aisle 2 — Shelf B",A study of evolution from a gene-centered perspective.,,available,true
+"Calculus: Early Transcendentals","James Stewart",9780538497909,"Mathematics","Cengage Learning",2015,8th,3,0,"Aisle 4 — Shelf A",Standard university calculus textbook.,,unavailable,true
+"The Art of War","Sun Tzu",9781590302255,"Philosophy","Shambhala",2005,1st,3,3,"Aisle 5 — Shelf A",Ancient Chinese military treatise applicable to strategy and life.,,available,true
+"Sapiens: A Brief History of Humankind","Yuval Noah Harari",9780062316110,"History","Harper",2015,1st,5,4,"Aisle 6 — Shelf A",A survey of the history of humankind from the Stone Age to the present.,,available,true
+"The Great Gatsby","F. Scott Fitzgerald",9780743273565,"Literature","Scribner",1925,1st,4,2,"Aisle 1 — Shelf C",A story of the mysteriously wealthy Jay Gatsby and his love for Daisy Buchanan.,,available,true
+"Structure and Interpretation of Computer Programs","Harold Abelson",9780262510875,"Computer Science","MIT Press",1996,2nd,2,1,"Aisle 3 — Shelf A",A classic computer science textbook on programming paradigms.,,available,true
+"Thinking, Fast and Slow","Daniel Kahneman",9780374533557,"Science","Farrar, Straus and Giroux",2013,1st,3,2,"Aisle 2 — Shelf C",An exploration of the two systems that drive the human mind.,,available,true
+"The Catcher in the Rye","J.D. Salinger",9780316769488,"Literature","Little, Brown and Company",1951,1st,3,3,"Aisle 1 — Shelf D",A story about teenage angst and alienation.,,available,true
+"Introduction to Electrodynamics","David J. Griffiths",9781108420419,"Engineering","Cambridge University Press",2017,4th,2,1,"Aisle 7 — Shelf A",Standard textbook on classical electrodynamics for engineering students.,,available,true

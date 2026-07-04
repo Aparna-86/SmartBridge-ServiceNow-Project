@@ -1,0 +1,45 @@
+name: Markdown Lint
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - '**/*.md'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - '**/*.md'
+
+jobs:
+  markdown-lint:
+    name: Lint Markdown Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Run Markdown Lint
+        run: |
+          markdownlint '**/*.md' \
+            --ignore node_modules \
+            --ignore .git \
+            --config .markdownlint.json \
+            || true
+        # "|| true" ensures lint warnings don't fail the build during development
+        # Remove "|| true" when enforcing strict lint in production
+
+      - name: Upload Lint Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdown-lint-results
+          path: lint-results.txt
+          if-no-files-found: ignore

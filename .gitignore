@@ -1,0 +1,91 @@
+# Smart Library Request Workflow — .gitignore
+# ServiceNow Project
+
+# ============================================================
+# ServiceNow Artifacts (never commit these)
+# ============================================================
+*.xml.bak
+update_set_*.xml
+sys_remote_update_set*.xml
+
+# ============================================================
+# Operating System
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Editor & IDE
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================
+# Node.js (if tooling is added)
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ============================================================
+# Python (if automation scripts are added)
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.env
+.venv
+env/
+
+# ============================================================
+# Logs & Temp Files
+# ============================================================
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# ============================================================
+# Sensitive / Credentials
+# ============================================================
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+*.pem
+*.key
+*.p12
+
+# ============================================================
+# Generated / Build Artifacts
+# ============================================================
+dist/
+out/
+.build/
+
+# ============================================================
+# Draw.io lock files
+# ============================================================
+*.drawio.dtmp

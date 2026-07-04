@@ -1,0 +1,6 @@
+user_id,university_id,department,enrollment_year,max_borrow_limit,active_borrow_count,active
+john.doe@university.edu,STU-20230001,"Computer Science",2023,5,2,true
+jane.smith@university.edu,STU-20230002,"Literature",2023,5,1,true
+bob.johnson@university.edu,STU-20230003,"Mathematics",2024,5,0,true
+alice.williams@university.edu,STU-20230004,"Physics",2024,3,1,true
+charlie.brown@university.edu,STU-20230005,"Engineering",2022,5,3,true

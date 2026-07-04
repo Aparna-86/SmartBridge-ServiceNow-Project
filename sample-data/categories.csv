@@ -1,0 +1,9 @@
+name,description,icon,active
+Computer Science,"Books on programming, algorithms, data structures, and software engineering",icon-computer-science,true
+Literature,"Novels, poetry, plays, and literary criticism",icon-literature,true
+Science,"Physics, chemistry, biology, and environmental science",icon-science,true
+Mathematics,"Pure and applied mathematics, statistics, and logic",icon-mathematics,true
+History,"World history, ancient civilizations, and modern history",icon-history,true
+Arts,"Fine arts, music, film, and architecture",icon-arts,true
+Philosophy,"Western and Eastern philosophy, ethics, and metaphysics",icon-philosophy,true
+Engineering,"Civil, mechanical, electrical, and aerospace engineering",icon-engineering,true

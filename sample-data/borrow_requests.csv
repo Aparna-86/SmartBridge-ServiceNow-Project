@@ -1,0 +1,9 @@
+number,book_isbn,student_university_id,requested_pickup_date,notes,status,overdue_flag,submitted_at,opened_by_id
+LIB-00000001,9780132350884,STU-20230001,2026-01-20,"Requesting for my software engineering course",pending_approval,false,2026-01-15 10:30:00,john.doe@university.edu
+LIB-00000002,9780061120084,STU-20230002,2026-01-22,,pending_approval,false,2026-01-16 14:15:00,jane.smith@university.edu
+LIB-00000003,9780262033848,STU-20230001,2026-01-18,"Need it for algorithms class",approved,false,2026-01-14 09:00:00,john.doe@university.edu
+LIB-00000004,9780553380163,STU-20230004,2026-01-25,,issued,false,2026-01-17 11:45:00,alice.williams@university.edu
+LIB-00000005,9780451524935,STU-20230002,2026-01-10,rejected,false,2026-01-08 16:00:00,jane.smith@university.edu
+LIB-00000006,9780743273565,STU-20230005,2026-02-01,"For my English literature elective",returned,false,2026-01-20 08:30:00,charlie.brown@university.edu
+LIB-00000007,9780198788607,STU-20230004,2026-01-12,,cancelled,false,2026-01-10 13:20:00,alice.williams@university.edu
+LIB-00000008,9780262510875,STU-20230005,2026-01-28,,overdue,true,2025-12-20 10:00:00,charlie.brown@university.edu

@@ -1,0 +1,4 @@
+user_id,staff_id,department_assignments,active
+sarah.connor@university.edu,STAFF-LIB-001,Computer Science|Engineering,true
+james.wilson@university.edu,STAFF-LIB-002,Literature|History|Arts,true
+emily.davis@university.edu,STAFF-LIB-003,Science|Mathematics|Philosophy,true
